@@ -1,6 +1,5 @@
 # Telepath
 基于Langchain开发的，集成各种外部工具的ChatGPT命令行聊天界面。
-（还没写完，别急）
 
 ## 目录
 
