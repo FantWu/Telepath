@@ -54,7 +54,7 @@ Telepath不需要你自己指定工具。他会分析你的问题，并在已经
 
 ## 安装和使用
 
-### 准备工作：
+### 准备工作
 
 为了获得完整的体验，在使用Telepath前，请先取得OpenAI和Wolfram Alpha的API key，以及授权使用new bing的cookies。
 
@@ -62,13 +62,57 @@ Telepath不需要你自己指定工具。他会分析你的问题，并在已经
 
 - Walfram Alpha [API获取页面](https://products.wolframalpha.com/api/)
 
-- new bing获取方法如下：
+- new bing Cookies
+
+### new bing Cookies获取方法
 
 1、安装浏览器插件：[Cookies Editor](https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)
 
 2、访问[Bing首页](https://www.bing.com)，确保此时你可以使用new Bing
 
-3、启用插件
+3、启用插件，点击插件界面右下角的Export，然后点击Export as JSON，此时cookies已经复制到剪贴板上了。
+
+![](https://github.com/FantWu/Telepath/blob/main/images/exportcookies.png)
+
+4、在主程序的目录下新建一个文件，名字叫bing_cookie.txt，然后把cookies粘贴进去即可。
+
+### 安装程序
+
+1、在你的系统上安装`Python 3.9+`
+
+2、Clone整个源码，或者下载源码压缩包并解压到合适的位置
+
+3、在源码文件夹中打开终端，安装依赖
+
+```
+pip3 install -r requirements.txt
+```
+
+4、把bing_cookie.txt放到和主程序main.py相同的文件夹中
+
+5、编辑config.ini
+
+```
+[keys]
+openai_api_key=<在这里填你的OpenAI API Key>
+wolfram_alpha_api_key=<在这里填你的Wolfram Alpha API Key>
+[settings]
+language_mode=<语言模式，c表示中文模式，若不需要中文模式可改为任何一个其他字母，默认为c>
+your_name=<你的用户名>
+bing_cookie=<bing cookies文件名，默认为bing_cookie.txt>
+show_balance=<是否开启显示余额功能，true为开启，false为关闭，默认为true>
+```
+
+6、运行程序
+
+```
+python3 main.py
+```
+
+
+
+
+
 
 
 
