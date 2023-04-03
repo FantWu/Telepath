@@ -5,7 +5,8 @@
 ## 目录
 
 - [亮点](#亮点)
-- [安装和使用](#安装和使用)
+- [安装](#安装)
+- [演示](#演示)
 
 ## 亮点
 
@@ -22,37 +23,10 @@ Telepath不需要你自己指定工具。他会分析你的问题，并在已经
 - PyPackageInstaller：Python包管理器
 - BrainMemory：键值对存储
 
-以下是一些演示：
+查看演示：[演示](#演示)
 
-查询在线信息（调用new bing）：
 
-![](https://github.com/FantWu/Telepath/blob/main/images/websearch1.png)
-
-求解数学问题（调用Wolfram Alpha）：
-
-![](https://github.com/FantWu/Telepath/blob/main/images/math1.png)
-
-感知当前时间：
-
-![](https://github.com/FantWu/Telepath/blob/main/images/time.png)
-
-读写本地文件：
-
-![](https://github.com/FantWu/Telepath/blob/main/images/file1.png)
-
-![](https://github.com/FantWu/Telepath/blob/main/images/file2.png)
-
-运行Python代码：
-
-![](https://github.com/FantWu/Telepath/blob/main/images/python1.png)
-
-![](https://github.com/FantWu/Telepath/blob/main/images/python2.png)
-
-安装Python库：
-
-![](https://github.com/FantWu/Telepath/blob/main/images/python3.png)
-
-## 安装和使用
+## 安装
 
 ### 准备工作
 
@@ -109,6 +83,41 @@ show_balance=<是否开启显示余额功能，true为开启，false为关闭，
 python3 main.py
 ```
 
+看到以下界面即为运行成功
+
+![](https://github.com/FantWu/Telepath/blob/main/images/telepath.png)
+
+Enjoy~
+
+## 演示
+
+查询在线信息（调用new bing）：
+
+![](https://github.com/FantWu/Telepath/blob/main/images/websearch1.png)
+
+求解数学问题（调用Wolfram Alpha）：
+
+![](https://github.com/FantWu/Telepath/blob/main/images/math1.png)
+
+感知当前时间：
+
+![](https://github.com/FantWu/Telepath/blob/main/images/time.png)
+
+读写本地文件：
+
+![](https://github.com/FantWu/Telepath/blob/main/images/file1.png)
+
+![](https://github.com/FantWu/Telepath/blob/main/images/file2.png)
+
+运行Python代码：
+
+![](https://github.com/FantWu/Telepath/blob/main/images/python1.png)
+
+![](https://github.com/FantWu/Telepath/blob/main/images/python2.png)
+
+安装Python库：
+
+![](https://github.com/FantWu/Telepath/blob/main/images/python3.png)
 
 
 
