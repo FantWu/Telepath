@@ -54,4 +54,22 @@ Telepath不需要你自己指定工具。他会分析你的问题，并在已经
 
 ## 安装和使用
 
-(还没写完，别急）
+### 准备工作：
+
+为了获得完整的体验，在使用Telepath前，请先取得OpenAI和Wolfram Alpha的API key，以及授权使用new bing的cookies。
+
+- OpenAI [官网](https://openai.com/)    
+
+- Walfram Alpha [API获取页面](https://products.wolframalpha.com/api/)
+
+- new bing获取方法如下：
+
+1、安装浏览器插件：[Cookies Editor](https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)
+
+2、访问[Bing首页](https://www.bing.com)，确保此时你可以使用new Bing
+
+3、启用插件
+
+
+
+
